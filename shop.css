@@ -1,0 +1,168 @@
+body{
+    background-color: black;
+}
+.t{
+    color: white;
+}
+.button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+.border{
+    border: 3px solid grey;
+}
+.bloks{
+    display: inline-block;
+}
+.m{
+    margin-left: 20px;
+}
+.b{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+.maud{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 500px;
+    height: 300px;
+    float: left;
+    
+}
+.buy{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+}
+.tx{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+h1, h2 {
+    color: #ffffff;
+  }
+  
+  header, section, footer {
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: #007BFF;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Стилі для головної сторінки */
+  #intro, #why-choose-us, #popular-models, #special-offers, #contact-us, #location, #working-hours {
+    margin-bottom: 20px;
+  }
+  
+  #intro p, #why-choose-us ul, #popular-models ul, #special-offers p, #contact-us p, #location p, #working-hours p {
+    margin: 10px 0;
+  }
+  
+  /* Стилі для сторінки технічної підтримки */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  label, input, textarea, .submit-button {
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .support-description {
+    margin-bottom: 10px;
+  }
+  
+  .support-description a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .support-description a:hover {
+    text-decoration: underline;
+  }
+
+.car-details {
+    margin-bottom: 20px;
+  }
+  
+  .car-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .car-details p {
+    margin-bottom: 10px;
+  }
+  
+  .buy-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+  }
