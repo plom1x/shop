@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car shop</title>
+    <link rel="stylesheet" href="/CSS/shop.css">
+</head>
+<body>
+    <div>
+        <h1 class="t" align="center">CAR SHOP</h1>
+    </div>
+    <div style="text-align: center;">
+        <a href="/course work/shop-audi.html">
+        <button class="button">Головна</button>
+        </a>
+        <a href="/course work/shop-audi2.html">
+        <button class="button">Машини</button> 
+        </a>
+        <button class="button">Тех.підтримка</button>
+    </div>
+
+    <h1 align="center">Технічна підтримка</h1>
+
+<p class="support-description t">Ми завжди готові допомогти вам вирішити будь-які питання або проблеми, що виникли під час користування нашим сервісом. Будь ласка, заповніть форму нижче, і наша команда технічної підтримки зв'яжеться з вами найближчим часом.</p>
+
+<h2 align="center">Контактна форма</h2>
+
+<form align="center" id="support-form">
+  <label for="name">Ім'я:</label>
+  <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Ваш email" required>
+
+  <label for="issue">Опишіть вашу проблему:</label>
+  <textarea id="issue" name="issue" placeholder="Ваше повідомлення" required></textarea>
+
+  <button class="submit-button" type="submit">Відправити</button>
+</form>
+
+<h2 align="center">Інші способи зв'язку</h2>
+
+<p align="center" class="support-description t">Якщо ви бажаєте зв'язатися з нами іншими способами, ви можете скористатися наступними контактами:</p>
+<p align="center" class="support-description t"><strong>Телефон:</strong> +38 (044) 123-45-67</p>
+<p align="center" class="support-description t"><strong>Email:</strong> <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a></p>
+
+<p align="center" lass="support-description t">Дякуємо за звернення! Ми цінуємо кожного клієнта і прагнемо забезпечити вам найкращий сервіс.</p>
+
+<script>
+  document.getElementById('support-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Дякуємо за ваше звернення! Ми зв\'яжемося з вами найближчим часом.');
+  });
+</script>
+
+    
+</body>
+</html>
